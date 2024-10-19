@@ -1,1 +1,32 @@
-https://github.com/mujtabaahmad212/classTask-06.git
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Virtual Pet - Chodri</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Meet Your Pet: Chodri</h1>
+
+    <div class="pet-details">
+      <p><strong>Name:</strong> <span id="pet-name">Chodri</span></p>
+      <p><strong>Age:</strong> <span id="pet-age">3</span></p>
+      <p><strong>Happiness:</strong> <span id="pet-happiness">50</span></p>
+      <p><strong>Hunger:</strong> <span id="pet-hunger">40</span></p>
+      <p id="pet-status"><strong>Status:</strong> Alive</p>
+    </div>
+
+    <div class="controls">
+      <button onclick="pet.feed()">Feed</button>
+      <button onclick="pet.play()">Play</button>
+      <button onclick="pet.agePet()">Age Pet</button>
+    </div>
+
+    <div id="action-alert"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
